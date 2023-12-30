@@ -56,3 +56,14 @@ con ole.log(second);
 let n = +prompt("введи число");
 
 console.log(n + 1);
+
+// Завдання: https://shpp.gitbook.io/zero/tutorials/input-output/addition
+let n1 = prompt("введи першеЧисло число");
+let n2 = prompt("введи другеЧисло число");
+let n3 = +n1 + +n2;
+
+console.put(n1);
+console.put(" + ");
+console.put(n2);
+console.put(" = ");
+console.put(+n3);
