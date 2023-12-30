@@ -39,3 +39,16 @@ first = third;*/
 
 console.log(first + second - first);
 console.log(second + first - second);
+
+// Завдання: https://shpp.gitbook.io/zero/tutorials/commands/swap#chastina-3-ne-obovyazkovo
+let first = 5;
+let second = 10;
+
+console.log(first);
+console.log(second);
+
+first = second + first;
+second = first - second;
+first = first - second;
+console.log(first);
+console.log(second);
