@@ -51,4 +51,8 @@ first = second + first;
 second = first - second;
 first = first - second;
 console.log(first);
-console.log(second);
+con ole.log(second);
+
+let n = +prompt("введи число");
+
+console.log(n + 1);
